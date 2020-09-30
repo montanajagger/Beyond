@@ -1,0 +1,215 @@
+{
+  "menu": [
+    {
+      "url": "/dashboard",
+      "name": "Dashboard",
+      "i18n": "Dashboard",
+      "class": "waves-effect waves-cyan",
+      "slug": "dashboard-modern",
+      "icon": "settings_input_svideo"
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "User",
+      "i18n": "User",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "user",
+      "icon": "account_circle",
+      "submenu": [
+        {
+              "url": "sub-admins",
+              "name": "Sub Admins",
+              "i18n": "Sub Admins",
+              "slug": "sub-admins"
+            },
+            {
+              "url": "groups",
+              "name": "Groups",
+              "i18n": "Groups",
+              "slug": "groups"
+            },
+            {
+              "url": "permissions",
+              "name": "Permissions",
+              "i18n": "Permissions",
+              "slug": "permissions"
+            }
+          ]
+      },
+      {
+          "url": "javascript:void(0)",
+          "name": "Booking",
+          "i18n": "Booking",
+          "class": "collapsible-header waves-effect waves-cyan",
+          "slug": "booking",
+          "icon": "card_membership",
+          "submenu": [
+              {
+                  "url": "trips",
+                  "name": "Trip",
+                  "i18n": "Trip",
+                  "slug": "trip"
+              },
+              {
+                  "url": "socialevents",
+                  "name": "Social Life Events",
+                  "i18n": "Social Life Events",
+                  "slug": "sociallifeevents"
+              },
+              {
+                  "url": "meeting",
+                  "name": "Meeting",
+                  "i18n": "Meeting",
+                  "slug": "meeting"
+              },
+              {
+                  "url": "hotel",
+                  "name": "Hotel",
+                  "i18n": "Hotel",
+                  "slug": "hotel"
+              },
+              {
+                  "url": "secondary_services",
+                  "name": "Secondary Services",
+                  "i18n": "Secondary Services",
+                  "slug": "secondary-services"
+              },
+              {
+                  "url": "contacts",
+                  "name": "Contacts",
+                  "i18n": "Contacts",
+                  "slug": "contacts"
+              }
+          ]
+      },
+    {
+      "url": "list-secretary",
+      "name": "Secretary",
+      "i18n": "Secretary",
+      "class": "waves-effect waves-cyan",
+      "slug": "secretary",
+      "icon": "face"
+    },
+     {
+      "url": "terms-and-conditions",
+      "name": "Terms & Conditions",
+      "i18n": "Terms & Conditions",
+      "class": "waves-effect waves-cyan",
+      "slug": "terms-and-conditions",
+      "icon": "do_not_disturb"
+    },
+    {
+      "url": "list-customer",
+      "name": "Customer",
+      "i18n": "Customer",
+      "class": "waves-effect waves-cyan",
+      "slug": "list-customer",
+      "icon": "face"
+    },
+    {
+      "url": "notification",
+      "name": "Notification",
+      "i18n": "Notification",
+      "class": "waves-effect waves-cyan",
+      "slug": "notification",
+      "icon": "add_alert"
+    },
+      {
+          "url": "coupon-list",
+          "name": "Coupon",
+          "i18n": "Coupon",
+          "class": "waves-effect waves-cyan",
+          "slug": "coupon",
+          "icon": "card_membership"
+      },
+    {
+      "url": "subscriptions",
+      "name": "Subscriptions",
+      "i18n": "Subscriptions",
+      "class": "waves-effect waves-cyan",
+      "slug": "subscriptions",
+      "icon": "card_membership"
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Package Plans",
+      "i18n": "Package Plans",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "user",
+      "icon": "card_membership",
+      "submenu": [
+
+        {
+              "url": "package-plans",
+              "name": "All Plans",
+              "i18n": "All Plans",
+              "slug": "package-plans"
+            },
+            {
+              "url": "plan-features",
+              "name": "Features",
+              "i18n": "Features",
+              "slug": "plan-features"
+            },
+            {
+              "url": "package-durations",
+              "name": "Package Durations",
+              "i18n": "Package Durations",
+              "slug": "package-durations"
+            }
+          ]
+      },
+      {
+      "url": "javascript:void(0)",
+      "name": "General Fields",
+      "i18n": "General Fields",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "#",
+      "icon": "card_membership",
+      "submenu": [
+            {
+              "url": "cities",
+              "name": "Cities",
+              "i18n": "Cities",
+              "slug": "cities"
+            },
+            {
+              "url": "titles",
+              "name": "Titles",
+              "i18n": "Titles",
+              "slug": "titles"
+            },
+            {
+              "url": "work",
+              "name": "Work",
+              "i18n": "Work",
+              "slug": "work"
+            }
+          ]
+      },
+    {
+      "url": "javascript:void(0)",
+      "name": "Settings",
+      "i18n": "Settings",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "user",
+      "icon": "card_membership",
+      "submenu": [
+
+          {
+            "url": "home-page-settings",
+            "name": "Home Page",
+            "i18n": "Home Page",
+            "slug": "package-plans"
+          },
+            {
+              "url": "testimonials",
+              "name": "Testimonials",
+              "i18n": "testimonials",
+              "slug": "testimonials"
+            }
+
+          ]
+      }
+    ]
+  }

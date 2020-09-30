@@ -1,0 +1,489 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .hero-content-wrap h1 {
+        font-size: 65px;
+    }
+    .connector {
+        max-width: 520px;
+        right: 154px;
+    }
+    .newsletter-right-img img {
+        max-width: 570px;
+        margin-top: -300px;
+        margin-right: 0;
+    }
+    .double-phone img {
+        max-width: 580px;
+    }
+    .testimonial-active .slick-list {
+        padding-left: 250px !important;
+        padding-right: 250px !important;
+    }
+    .testimonial-item {
+        border-radius: 5px;
+        padding: 50px 65px;
+        position: relative;
+        margin: 0 15px;
+    }
+    .jesture-nav-wrap {
+        max-width: calc(100% - 385px);
+    }
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .main-menu li:not(:first-child) {
+        margin-left: 30px;
+    }
+    .hero-content-wrap h1 {
+        font-size: 55px;
+    }
+    .hero-right-trans img {
+        max-width: 355px;
+        margin-bottom: -255px;
+    }
+    .hero-right-trans img {
+        max-width: 355px;
+        margin-bottom: -255px;
+    }
+    .tb-content-wrap {
+        padding: 40px 0;
+    }
+    .double-phone img {
+        max-width: 470px;
+        -webkit-transform: translateY(150px);
+        transform: translateY(150px);
+        padding-bottom: 150px;
+    }
+    .testimonial-active .slick-list {
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
+    .jesture-nav-wrap {
+        max-width: calc(100% - 110px);
+    }
+    .newsletter-right-img img {
+        max-width: 374px;
+        margin-top: -164px;
+        margin-bottom: -175px;
+        position: relative;
+        z-index: 1;
+        margin-right: 0;
+    }
+    .newsletter-mailbox {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        padding-top: 60px;
+    }
+    .newsletter-area {
+        margin-bottom: 100px;
+        margin-top: 155px;
+    }
+    .contact-address {
+        padding: 40px 20px;
+    }
+    .regier-flow-item {
+        height: 224px;
+        width: 225px;
+    }
+    .connector {
+        position: absolute;
+        z-index: -1;
+        max-width: 391px;
+        left: 143px;
+        height: 639px;
+        top: -32px;
+    }
+    .and-many-more {
+        left: 128px;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .toggle-bar {
+        display:inline-block;
+    }
+    .logo img {
+        max-width: 40px;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+    .hero-content-wrap h1 {
+        font-size: 55px;
+    }
+    .hero-area {
+        padding: 85px 0px;
+        padding-bottom: 215px;
+    }
+    .section-title h2 {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+    .section-title p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .section-title.text-center.mb-120 {
+        margin-bottom: 40px;
+    }
+    .connector {
+        max-width: 510px;
+        left: 178px;
+    }
+   .register-area {
+	padding: 70px 0;
+	padding-top: 0;
+}
+.section-title.feture-content.register-content.mt-90 {
+	margin-top: 0;
+	margin-bottom: 77px;
+}
+    
+    .feture-area {
+        padding-top: 75px;
+        padding-bottom: 20px;
+    }
+    .section-title.text-center.mb-100 {
+        margin-bottom: 40px;
+    }
+    .tb-content-wrap {
+        padding: 30px 0;
+    }
+    .feture-img img {
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .double-phone img {
+        max-width: 550px;
+        margin-left: auto;
+        display: block;
+        margin-right: auto;
+        margin-top: 40px;
+    }
+    .testimonial-active .slick-list {
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
+    .testimonial-item {
+        border-radius: 5px;
+        padding: 50px 40px;
+        position: relative;
+        margin: 0 15px;
+    }
+    .jesture-nav-wrap {
+        max-width: calc(100% - 110px);
+    }
+    .testimonial-area {
+        padding-top: 60px;
+    }
+    .newsletter-area {
+        background: #ceb07c;
+        margin-bottom: 90px;
+        margin-top: 80px;
+        padding-top: 50px;
+    }
+    .newsletter-mailbox .section-title {
+        margin-bottom: 30px;
+    }
+    .contact-form {
+        padding: 50px 30px;
+    }
+    .contact-address {
+        padding: 50px 22px;
+    }
+    .contact-g-wrap {
+        grid-template-columns: 58% 42%;
+    }
+    .hero-right-trans img {
+        max-width: 350px;
+        margin-bottom: -255px;
+        margin-top: 40px;
+    }
+    .footer-area {
+        padding-top: 285px;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (min-width: 320px) and (max-width: 767.98px) {
+    
+    .nav-link-wrap a:last-child {
+                text-align: center;
+        width: 98%;
+        flex: 0 0 98%;
+    }
+    .section-title.feture-content.register-content.mt-90 {
+	    margin-top: 0;
+	    margin-bottom: 77px;
+    }
+    
+    .register-g-wrap {
+    	display: -webkit-box;
+    	display: -ms-flexbox;
+    	display: flex;
+    	-ms-flex-wrap: wrap;
+    	flex-wrap: wrap;
+    }
+    
+    .toggle-bar {
+        display:inline-block;
+    }
+    .logo img {
+        max-width: 28px;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+    .hero-content-wrap h1 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    .hero-area {
+        padding: 55px 0px;
+        padding-bottom: 215px;
+    }
+    .section-title h2 {
+        font-size: 34px;
+        margin-bottom: 22px;
+    }
+    .section-title p {
+        font-size: 15px;
+        line-height: 26px;
+        padding: 0 15px 0 15px;
+    }
+    .section-title.text-center.mb-120 {
+        margin-bottom: 40px;
+    }
+    .connector {
+        max-width: 510px;
+        left: 178px;
+    }
+    .register-area {
+        padding: 70px 0;
+        padding-top: 0;
+    }
+    .feture-area {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+    .section-title.text-center.mb-100 {
+        margin-bottom: 40px;
+    }
+    .tb-content-wrap {
+        padding: 30px 0;
+    }
+    .feture-img img {
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .double-phone img {
+        max-width: 550px;
+        margin-left: auto;
+        display: block;
+        margin-right: auto;
+        margin-top: 40px;
+    }
+    .testimonial-active .slick-list {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .testimonial-item {
+        border-radius: 5px;
+        padding: 50px 40px;
+        position: relative;
+        margin: 0 15px;
+        padding-bottom: 40px;
+    }
+    .jesture-nav-wrap {
+        max-width: calc(100% - 110px);
+    }
+    .testimonial-area {
+        padding-top: 55px;
+    }
+    .newsletter-area {
+        background: #ceb07c;
+        margin-bottom: 90px;
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+    .newsletter-mailbox .section-title {
+        margin-bottom: 30px;
+    }
+    .contact-form {
+        padding: 30px 20px;
+    }
+    .contact-address {
+        padding: 50px 22px;
+    }
+    .contact-g-wrap {
+        grid-template-columns: 58% 42%;
+    }
+    .hero-right-trans img {
+        max-width: 350px;
+        margin-bottom: -255px;
+        margin-top: 40px;
+    }
+    .footer-area {
+        padding-top: 285px;
+    }
+    .hero-content-wrap p {
+        font-size: 16px;
+        margin-bottom: 22px;
+        line-height: 23px;
+    }
+    .hero-content-wrap {
+        padding-top: 50px;
+    }
+    .header-area {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .header-area.shirnkk .logo img {
+        max-width: 28px;
+    }
+    .twin-store-btn {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .twin-store-btn a {
+        height: 60px;
+    }
+    .connector {
+        display: none;
+    }
+  
+    .regier-flow-item {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 28px;
+    }
+    .register-g-wrap .regier-flow-item:nth-child(2n+1) {
+        margin-top: 0;
+    }
+    .and-many-more {
+        white-space: nowrap;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: block;
+        text-align: center;
+        font-size: 17px;
+        padding-bottom: 30px;
+    }
+    .screenshot-area {
+        padding: 55px 0;
+    }
+    .section-title.white.text-center.mb-80 {
+        margin-bottom: 50px;
+    }
+    .nav-link-wrap a {
+    	font-size: 15px;
+    	padding: 18px 0;
+    	margin-right: 2%;
+    	width: 48%;
+    	-webkit-box-flex: 0;
+    	-ms-flex: 0 0 48%;
+    	flex: 0 0 48%;
+    	display: block;
+    }
+
+    .width100 {
+    	width: 100% !important;
+    }
+    .nav-link-wrap {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+    .step-no {
+        font-size: 75px;
+        line-height: 1.5;
+    }
+    .statistics-outer-area {
+        padding-top: 0;
+        overflow: hidden;
+    }
+
+    .statistics-n-wrap {
+        grid-template-columns: 1fr;
+        grid-row-gap: 39px;
+        padding: 40px 30px;
+     }
+    .statistics-n-wrap .single-statis:not(:last-child) {
+       border-radius: ;
+       border-bottom: 1px solid #e7d8be;
+       padding-bottom: 25px;
+    }
+    .double-phone img {
+        max-width: 365px;
+    }
+    .inverted {
+        position: absolute;
+        top: 110px;
+        left: 18px;
+        width: 28px;
+    }
+    .jesture-nav-wrap {
+        max-width: calc(100% - -5px);
+    }
+    .testimonial-active .slick-list {
+        padding-bottom: 36px !important;
+    }
+    .round-btn.subscribe-btn {
+        border: 1px solid #ceb07c;
+        font-size: 15px;
+        height: 40px;
+        border-radius: 30px;
+        padding: 0 20px;
+    }
+    .input-inside.for-newsletter label {
+        font-size: 12px;
+    }
+    .input-inside.for-newsletter input {
+        height: 55px;
+        padding-left: 25px;
+    }
+    .round-btn.subscribe-btn {
+        right: 8px;
+    }
+    .newsletter-area {
+        margin-bottom: 65px;
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+    .contact-g-wrap {
+        display: block;
+    }
+    .contact-address {
+        padding: 35px 20px;
+        border-radius: 0 0 5px 5px;
+    }
+    .copyright-wrap a {
+        font-size: 15px;
+    }
+    .copyright-wrap p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .service-area {
+        padding: 66px 0;
+        padding-bottom: 30px;
+    }
+
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+ 
+}

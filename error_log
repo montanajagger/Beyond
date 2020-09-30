@@ -1,0 +1,1 @@
+[28-May-2020 20:43:45 Asia/Riyadh] PHP Fatal error:  Can't use method return value in write context in /home/beyondks/public_html/system/app/Http/Controllers/PlansController.php on line 29
